@@ -1,0 +1,66 @@
+
+#play
+{
+    position: absolute;
+    width : 75px;
+    height : 25px;
+    background-color: greenyellow;
+    top: 50%;
+    left: 42%;
+}
+#sound,mute
+{
+    position: absolute;
+    width : 50px;
+    height : 50px;
+    background-color: greenyellow;
+    top: 5%;
+    left: 5%;
+}
+
+#game {
+  background: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#ball {
+  background: grey;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 290px;
+  top: 140px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+
+#paddleA {
+  background: red;
+  position: absolute;
+  width: 15px;
+  height: 75px;
+  left: 50px;
+  top: 115px;
+  border: 1px solid black;
+}
+
+#paddleB {
+  background: red;
+  position: absolute;
+  width: 15px;
+  height: 75px;
+  right: 50px;
+  top: 115px;
+  border: 1px solid black;
+}
