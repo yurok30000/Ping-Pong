@@ -6,8 +6,7 @@ function game() {
         update: function () {
             $("#score > p").text(score.pA + ':' + score.pB)
         }
-    
-}
+    }
 
     $("<div/>").attr("id", "content").appendTo("body");
     $("<div/>").attr("id", "game").appendTo("#content");
