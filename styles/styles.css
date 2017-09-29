@@ -19,7 +19,7 @@
 }
 
 #game {
-  background: white;
+  background: black;
   width: 600px;
   height: 300px;
   position: absolute;
@@ -34,7 +34,7 @@
 }
 
 #ball {
-  background: grey;
+  background: yellow;
   position: absolute;
   width: 10px;
   height: 10px;
@@ -46,7 +46,7 @@
 
 
 #paddleA {
-  background: red;
+  background: blue;
   position: absolute;
   width: 15px;
   height: 75px;
@@ -62,5 +62,16 @@
   height: 75px;
   right: 50px;
   top: 115px;
+  border: 1px solid black;
+}
+
+#score {
+  border-radius: 10px;
+  background: yellow;
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  left: 255px;
+  top: 20px;
   border: 1px solid black;
 }
